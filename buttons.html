@@ -1,0 +1,12 @@
+<!--Include links in header.php file-->
+        <link rel="stylesheet" href="<?php echo theme_url('/css/aas-main.css'); ?>">
+        <script src="<?php echo theme_url('/js/aas-main.js'); ?>"></script>
+<!--Add buttons in article.php where ever you want...-->
+        <!--Not including fontawesome files but just link or use your own.-->
+
+        <a class="sharebtn" href="javascript:tweetCP()" target="_blank" alt="Share on Twitter"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+        <a class="sharebtn" href="javascript:fbCP()" target="_blank" alt="Share on Facebook"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+        <a class="sharebtn" href="javascript:gpCP()" target="_blank" alt="Share on Google Plus"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+        <br>
+        <button class="clb" onclick="copyCP()"><i class="fa fa-link" aria-hidden="true"></i> Copy link</button>
+        <input class="cli" style="display:none;" type="text" value="Your Blog url<?php echo article_url(); ?>" id="pu">

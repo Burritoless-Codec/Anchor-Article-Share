@@ -1,0 +1,35 @@
+.sharebtn {
+	margin: 3px;
+	color: #D84315;
+}
+.sharebtn:hover {
+	margin: 3px;
+	color: #BF360C;
+}
+.clb{
+	display: inline-block;
+	padding: 9px 18px;
+
+	background: #D84315;
+	color: #fff;
+
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+
+	font-size: 13px;
+	font-weight: 500;
+}
+.clb:hover{
+	background: #BF360C;
+}
+.cli{
+	width: 25%;
+	padding: 9px 15px;
+
+	font-size: 13px;
+	font-weight: normal;
+
+	border: 1px solid rgba(22,36,54,.2);
+	border-radius: 5px;
+}
